@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
-import { SharedComponentsComponent } from './shared-components.component';
+import { TitleComponent } from './title/title.component';
 
 
 
 @NgModule({
-  declarations: [SharedComponentsComponent],
+  declarations: [TitleComponent],
   imports: [
   ],
-  exports: [SharedComponentsComponent]
+  exports: [TitleComponent]
 })
 export class SharedComponentsModule { }

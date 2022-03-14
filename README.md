@@ -18,5 +18,4 @@ Use `npm run storybook` to start Storybook for the shared components on port `60
 
 ## TODO
 * Transition to eslint
-* Configre Storybook
-* Clean up Storybook stories
+* Subpackage shared components
