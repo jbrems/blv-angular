@@ -13,3 +13,10 @@ Or use `npm run test:client`, `npm run test:admin`, `npm run test:shared` to run
 Use `npm run build` to build all projects.
 
 Use `npm run lint` to run linting for all projects.
+
+Use `npm run storybook` to start Storybook for the shared components on port `6006`.
+
+## TODO
+* Transition to eslint
+* Configre Storybook
+* Clean up Storybook stories
