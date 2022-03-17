@@ -1,12 +1,9 @@
 import { NgModule } from '@angular/core';
-import { TitleComponent } from './title/title.component';
-
-
+import { BlvTitleModule } from './title/title.module';
 
 @NgModule({
-  declarations: [TitleComponent],
-  imports: [
-  ],
-  exports: [TitleComponent]
+  declarations: [],
+  imports: [BlvTitleModule],
+  exports: []
 })
 export class SharedComponentsModule { }

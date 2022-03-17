@@ -1,15 +1,15 @@
 import { Story, Meta } from '@storybook/angular/types-6-0';
-import { TitleComponent } from './title.component';
+import { BlvTitleComponent } from './title.component';
 
 export default {
   title: 'Title',
-  component: TitleComponent,
+  component: BlvTitleComponent,
   argTypes: {
     content: { control: 'text' },
   },
 } as Meta;
 
-const Template: Story<TitleComponent> = (args: TitleComponent) => ({
+const Template: Story<BlvTitleComponent> = (args: BlvTitleComponent) => ({
   props: args,
 });
 

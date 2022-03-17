@@ -4,11 +4,11 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'lib-title',
+  selector: 'blv-title',
   templateUrl: './title.component.html',
   styleUrls: ['./title.component.scss']
 })
-export class TitleComponent {
+export class BlvTitleComponent {
   @Input() public content: string;
 
   constructor() { }
