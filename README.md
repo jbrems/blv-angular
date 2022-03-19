@@ -16,6 +16,8 @@ Use `npm run lint` to run linting for all projects.
 
 Use `npm run storybook` to start Storybook for the shared components on port `6006`.
 
+Use `npm run cy:run` to run the Cypress E2E tests or `npm run cy:open` to open the Cypress UI.
+
 ## TODO
 * Transition to eslint
 * Subpackage shared components

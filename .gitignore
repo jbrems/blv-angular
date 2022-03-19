@@ -46,3 +46,6 @@ testem.log
 Thumbs.db
 
 documentation.json
+
+cypress/screenshots
+cypress/videos
